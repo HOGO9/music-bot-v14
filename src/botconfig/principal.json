@@ -1,0 +1,10 @@
+{
+    "status": "You status!",
+    "token": "You token here!",
+    "color": "#f542e9",
+    "command_invalid": false,
+    "mention_return": {
+        "status": true,
+        "message": "Hey {user} , Play a music with </play:1015833470980587520>"
+    }
+}
