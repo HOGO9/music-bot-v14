@@ -23,7 +23,7 @@ module.exports = class extends Command {
 
         const search = interaction.options.getString('title')
 
-        await interaction.reply({ content: 'searching music...', ephemeral: true})
+        await interaction.reply({ content: '[searching music](https://discord.gg/jujuba) ...', ephemeral: true})
 
         let res = await this.client.manager.search(search, interaction.user)
 
