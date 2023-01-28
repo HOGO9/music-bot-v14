@@ -20,36 +20,11 @@ module.exports = (client) => {
           ],
         nodes: [
             {
-                host: "57.128.136.145",
-                port: 30191,
-                password: "leefernando",
-                secure: false
-            },
-            {
-                host: "lava1.cruzstudio.tech",
-                port: 80,
-                password: "cruzstudio.tech",
-                secure:  false
-    
-            },
-                  {
-                host: "lava2.cruzstudio.tech",
-                port: 80,
-                password: "cruzstudio.tech",
-                secure:  false
-            },
-                  {
-                host: "lava3.cruzstudio.tech",
-                port: 80,
-                password: "cruzstudio.tech",
-                secure:  false
-            },
-                  {
-                host: "lava4.cruzstudio.tech",
-                port: 80,
-                password: "cruzstudio.tech",
-                secure:  false
-            }
+      host: "nonssl.freelavalink.ga",
+      port: 2000,
+      pass: "www.freelavalink.ga",
+      secure: false,
+          }
         ],
         send: (id, payload) => {
             const guild = client.guilds.cache.get(id)
